@@ -108,7 +108,7 @@
 
             Token     = $AutomationKey
 
-            GroupName = $Node.NodeName
+            HybridGroupName = $Node.NodeName
 
             DependsOn = '[WaitForHybridRegistrationModule]ModuleWait'
 
